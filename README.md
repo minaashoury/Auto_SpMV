@@ -11,6 +11,9 @@ These SpMV kernels are developed in Visual Studio 2017.
 
 1. Start Visual studio 2017 (any edition)
 2. Create a Cuda project
-3. add .cu files to the project
+3. Add files of Codes.rar to the project
 4. Link "nvml.lib" in visual studio project properties
-5. 
+5. build the project
+6. firstly, convert a Sparse Matrix in .mm format to the arbitrary format using convertor functions files in codes.rar
+7. Secondly, run a SpMV Kernel (.cu) (A thread will capture the instant power consumption while another thread is lunching the SpMV kernel on GPU)
+8. Dataset.csv is gathered using the .cu files and used for building ML models.
