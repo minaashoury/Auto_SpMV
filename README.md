@@ -7,7 +7,6 @@ This repository contains codes and dataset have been used for optimizing the per
 Compiling and Executing Code
 
 These SpMV kernels are developed in Visual Studio 2017.
-all headers are included in .cu files.
 
 
 1. Start Visual studio 2017 (any edition)
